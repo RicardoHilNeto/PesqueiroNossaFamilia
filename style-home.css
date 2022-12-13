@@ -320,4 +320,35 @@ footer {
         bottom: 30px;
         left: 80px;
     }
+	@media screen and (max-width: 391px) {
+        .sumario nav a {
+            top: 10px;
+            left: 40px;
+            margin: 0 0 0 1px;
+            font-size: 9.5px;
+        }
+
+        
+        .imgpesca {
+            position: relative;
+            top: 0px;
+            width: 300px;
+            height: 300px;
+            margin: 50px 30px 50px 0;
+    }
+
+    .imagemlider {
+        display: inline-block;
+        width: 120px;
+        height: 180px;
+        margin-left: 0.5%;
+    }
+
+    .imagem {
+        display: inline-block;
+        width: 120px;
+        height: 180px;
+        margin-left: 1.5%;
+    }
+}
 }
